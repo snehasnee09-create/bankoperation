@@ -6,9 +6,9 @@ def bankoper(initialbal, deposit, withdraw):
 
 
 if __name__ == "__main__":
-    initialbal = int(sys.argv[1])
-    deposit = int(sys.argv[2])
-    withdraw = int(sys.argv[3])
+    initialbal = int(input("enter initial balance:"))
+    deposit = int(input("enter deposit balance:"))
+    withdraw = int(input("enter withdraw balance:"))
 
     totalbal, updatedbal = bankoper(initialbal, deposit, withdraw)
 
